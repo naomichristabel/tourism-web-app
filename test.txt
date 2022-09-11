@@ -3,6 +3,16 @@ git init
 git config --global user.name "your_name"
 git config --global user.email your_email
 
+git status
+
+git add .
+
+git commit -m "test commit"
+
 git remote add origin "https://github.com/naomichristabel/tourism-web-app"
 
 git push origin master
+
+git branch develop
+
+git checkout develop
